@@ -1,0 +1,11 @@
+{
+  "showLineNumber": true,
+  "vimMode": true,
+  "livePreview": true,
+  "readableLineLength": false,
+  "strictLineBreaks": false,
+  "showInlineTitle": true,
+  "spellcheck": false,
+  "alwaysUpdateLinks": true,
+  "propertiesInDocument": "visible"
+}

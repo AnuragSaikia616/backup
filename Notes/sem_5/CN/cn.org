@@ -1,0 +1,47 @@
+#+title: Computer Network
+
+
+
+* Syllabus:
+** Unit -I
+*Introduction to Computer Networks:* Data Communication System and its components, Data Flow,
+Computer network and its goals, Types of computer networks: LAN, MAN, WAN, Wireless and
+Wired networks, broadcast and point-to-point networks, Network topologies, protocols, interfaces and
+services, ISO- OSI reference model, TCP/IP architecture.
+*Physical Layer:* Concept of Analog & Digital Signal, Bandwidth, Transmission Impairments:
+Attenuation, Distortion, Noise, Multiplexing: Frequency Division, Time Division, Wavelength
+Division, Transmission Media: Twisted pair, Coaxial cable, Fiber optics, Wireless transmission (radio,
+microwave, infrared), Switching: Circuit Switching, Message Switching, Packet Switching &
+comparisons, narrowband ISDN, broadband ISDN.
+** Unit -II
+*Data link layer:* Error Control, Types of errors, framing (character and bit stuffing), error detection
+& correction methods; Flow control; Protocols: Stop & wait ARQ, Go-Back- N ARQ, sliding window
+protocols, Selective repeat ARQ, HDLC;
+*Medium access sub layer:* Point to point protocol, FDDI, token bus, token ring; Reservation, polling,
+Multiple access protocols: Pure ALOHA, Slotted ALOHA, CSMA, CSMA/CD, FDMA, TDMA,
+CDMA, LLC, Traditional Ethernet, fast Ethernet, Network devices-repeaters, hubs, switches, Bridges,
+Router, Gateway.
+** Unit-III
+*Network layer:* Addressing: Internet address, sub-netting; Routing techniques, static vs. dynamic
+routing, routing table, DHCP, IEEE standards 802.x, Routing algorithms: shortest path algorithm,
+flooding, distance vector routing, link state routing; Protocols: ARP, RARP, IP, ICMP, IGMP, IPV6;
+Unicast and multicast routing protocols, ATM.
+** Unit-IV
+*Transport layer:* Process to process delivery; UDP; TCP, RPC, Congestion control algorithm: Leaky
+bucket algorithm, Token bucket algorithm, choke packets; Quality of service: techniques to improve
+QoS. *Application layer:* DNS; SMTP, SNMP, FTP, HTTP & WWW; Firewalls, Bluetooth, Email,
+S/MIME, IMAP *Network Security:* Cryptography, user authentication, security protocols in
+internet, public keyencryption algorithm, digital signatures.
+
+
+
+
+
+
+
+
+
+* UNIT 1:
+* UNIT 2:
+* UNIT 3:
+* UNIT 4:

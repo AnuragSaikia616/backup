@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "b4051d257b9e827f",
+    "type": "split",
+    "children": [
+      {
+        "id": "b706b9142eafcb13",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab8ffa96ccea7d68",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "sem_5/ANN/ann notes.pdf"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e8611f5b68294023",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "eb52f2c9c4706378",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "82f5bc88d23a2a85",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "ef070dae6aad22c5",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "35d62320d3049407",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "b3378593f598031a",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "5be6a671a97ed0e1",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "sem_5/ANN/ann notes.pdf",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "248ee75ef07f0138",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "sem_5/ANN/ann notes.pdf",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "dd5572c6032706c1",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "sem_5/ANN/ann notes.pdf"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "ab8ffa96ccea7d68",
+  "lastOpenFiles": [
+    "sem_5/ANN/ANN LECTURE Notes.pdf",
+    "sem_5/sem_5&6_syllabus.pdf",
+    "sem_5/ANN/ann notes.pdf",
+    "sem_5/CA/Coa Unit 2.pdf",
+    "Untitled 1.md",
+    "Untitled",
+    "sem_5/CA/Coa Unit 3.pdf",
+    "sem_5/CA/Coa Unit 3 Part 2.pdf",
+    "sem_5/CA/CoA numerical.pdf",
+    "sem_5/CA/CoA Notes Unit-1.pdf",
+    "sem_5/CA/CA unit 4.pdf",
+    "sem_5/CA/coa ass.2.pdf",
+    "sem_5/CA/COA.md",
+    "Untitled 1.canvas",
+    "Untitled 2.canvas",
+    "().md",
+    "sem_5/MLP/machine learning with python.md",
+    "note.md"
+  ]
+}

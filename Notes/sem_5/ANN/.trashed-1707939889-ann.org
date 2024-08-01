@@ -1,0 +1,37 @@
+#+title: ARTIFICIAL NEURAL NETWORKS notes
+
+* Syllabus:
+- Unit 1
+    Introduction and ANN Structure: Biological neurons and artificial neurons. Model of an ANN.
+    Activation functions used in ANNs. Typical classes of network architectures. Mathematical
+
+    Foundations and Learning mechanisms: Re-visiting vector and matrix algebra. State-space concepts.
+    Concepts of optimization. Error-correction learning. Memory-based learning. Hebbian learning.
+    Competitive learning. Building a simple ANN in python.
+
+Unit-II
+    Feedforward ANN: Structures of Multi-layer feedforward networks with implementation in Python.
+    Back propagation algorithm. Back propagation – training and convergence. Functional
+    approximation with back propagation. Practical and design issues of back propagation learning.
+
+    Radial Basis Function Networks: Pattern separability and interpolation. Regularization Theory.
+    Regularization and RBF networks. RBF network design and training. Approximation properties of
+    RBF.
+
+Unit-III
+    Associative memories network -Linear Association, Pattern Association, Hebb and Delta rule for
+    pattern association with its implementation in Python, Extended delta rule, Recurrent Auto associative
+    memory: retrieval algorithm, storage algorithm; Bi-directional associative memory, Architecture,
+    Association encoding & decoding, Stability.
+
+Unit-IV
+    Self-organizing networks -UN supervised learning of clusters, winner-take-all learning, recallmode,
+    Initialization of weights, separability limitations. Design SOM in python.
+    Perceptron Network- Perceptron neural algorithm with its    implementation in Python, Multi-Layer
+    perceptron, Adaline Network, Madaline network
+
+    Neural network projects with MATLAB: Brain maker to improve Hospital treatment using
+    ADALINE, Breast cancer treatment using ART Network face recognition using BPN, data
+    compression using BPN.
+
+* UNIT 1:

@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "11ec9ee6f9e7d2bf",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c05b31d06dd80b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b195c41fd1c9e291",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sem_6/SoftComputing/UNIT 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9ab7e7e46d58d4d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "a0a647372a6cc689",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c7690337a0e9365a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "564015d1f7519fd0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "88f9e12a41dfcf7d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 250.5
+  },
+  "right": {
+    "id": "044d0cefdc0c165f",
+    "type": "split",
+    "children": [
+      {
+        "id": "0296f66a6da26c8c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "83694e3bcbfa6ec5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "sem_6/SoftComputing/UNIT 3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c5f5c1ac2fecb629",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "sem_6/SoftComputing/UNIT 3.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f8c9273832ae802e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e33bc91bba05e852",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "sem_6/SoftComputing/UNIT 3.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b195c41fd1c9e291",
+  "lastOpenFiles": [
+    "[.md",
+    "sem_6/AppliedMachineLearning/UNIT 3.md",
+    "sem_6/SoftComputing/UNIT 4.md",
+    "sem_6/CompileDesign/UNIT 2.md",
+    "sem_6/updated CSE(AIDS) 6th sem .pdf",
+    "sem_6/SoftComputing/UNIT 3.md",
+    "Pasted image 20240629033734.png",
+    "sem_6/SoftComputing/SC unit 2.pdf",
+    "sem_6/SoftComputing/sc 2.pdf",
+    "sem_6/SoftComputing/UNIT 1.md",
+    "sem_5/sem_5&6_syllabus.pdf",
+    "sem_6/Soft skills/UNIT 1.md",
+    "sem_6/Soft skills",
+    "sem_6/AppliedMachineLearning/Questions.md",
+    "sem_6/AppliedMachineLearning/UNIT 4.md",
+    "sem_6/AppliedMachineLearning/UNIT 2.md",
+    "sem_6/AppliedMachineLearning/K means and Fuzzy C means.md",
+    "Pasted image 20240623022722.png",
+    "Pasted image 20240622220305.png",
+    "Pasted image 20240622214545.png",
+    "Pasted image 20240622214522.png",
+    "Pasted image 20240622214458.png",
+    "Pasted image 20240622214424.png",
+    "Pasted image 20240622214402.png",
+    "UNIT 3.md",
+    "Pasted image 20240622193753.png",
+    "Pasted image 20240622193709.png",
+    "sem_6/BigDataAnalysis/UNIT 1.md",
+    "sem_6/ASSAI/Partial correllation.md",
+    "sem_6/ASSAI/T test.md",
+    "sem_6/ASSAI/Type 1 and Type 2 errors.md",
+    "sem_6/ASSAI/UNIT 2.md",
+    "sem_6/ASSAI/UNIT 1.md",
+    "sem_6/ASSAI/ANOVA test.md",
+    "Untitled.md",
+    "sem_6/ASSAI/Z test.md",
+    "sem_6/CompileDesign/UNIT 3.md",
+    "sem_6/CompileDesign/UNIT 1.md",
+    "sem_6/CompileDesign/UNIT 4.md",
+    "sem_6/CompileDesign/CD-23.pdf",
+    "sem_6/CompileDesign/unit 4 cd notes.pdf",
+    "sem_6/ASSAI/ASAI.pdf",
+    "sem_6/ASSAI/Procedure for hypothesis testing.md",
+    "sem_6/ASSAI",
+    "sem_6/CompileDesign/LR0SLR1.pdf",
+    "Untitled 1.canvas",
+    "Untitled 2.canvas",
+    "Untitled.canvas"
+  ]
+}

@@ -1,0 +1,136 @@
+#+title: Daa
+
+
+* Syllabus:
+** Unit 1: Introduction
+- Review: Elementary Data Structures, Algorithms and its complexity (Time and Space), Analyzing
+    Algorithms, Asymptotic Notations, Priority Queue, Quick Sort.
+- Recurrence relation: Methods for solving recurrence (Substitution, Recursion tree, Master theorem),
+    Strassen multiplication.
+** Unit 2: Advanced Design and analysis Techniques
+- Dynamic programming: Elements, Matrix-chain multiplication, longest common subsequence,
+    Greedy algorithms: Elements, Activity- Selection problem, Huffman codes, Task scheduling
+    problem, Travelling Salesman Problem.
+- Advanced data Structures: Binomial heaps, Fibonacci heaps, Splay Trees, Red-Black Trees.
+** Unit 3: Graph Algorithms
+- Review of graph algorithms: Traversal Methods (Depth first and Breadth first search), Topological
+    sort, strongly connected components, Minimum spanning trees- Kruskal and Prims, Single source
+    shortest paths, Relaxation, Dijkstras Algorithm, Bellman- Ford algorithm, Single source shortest paths
+    for directed acyclic graphs, All pairs shortest paths- shortest paths and matrix multiplication, Floyd-
+    Warshall algorithm.
+- Computational Complexity: Basic Concepts, Polynomial Vs Non-Polynomial Complexity, NP- hard
+    and NP-complete classes.
+** Unit 4: Network and Sorting Algorithms
+Flow and Sorting Networks Flow networks, Ford- Fulkerson method, Maximum Bipartite matching,
+Sorting Networks, Comparison network, the zero- One principle, Bitonic sorting network, Merging
+networks
+
+
+* UNIT 1:
+** Review:
+*** Elementary data structures:
+- [[https://www.geeksforgeeks.org/what-is-array/][Arrays]]
+- [[https://www.geeksforgeeks.org/data-structures/linked-list/][Linked lists]]
+- [[https://www.geeksforgeeks.org/stack-data-structure/][Stacks]]
+- [[https://www.geeksforgeeks.org/queue-data-structure/][Queues]]
+- [[https://www.freecodecamp.org/news/hash-tables/][Hash table (Hash maps)]]
+- [[https://www.geeksforgeeks.org/introduction-to-tree-data-structure-and-algorithm-tutorials/][Trees]]
+- [[https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/][Graphs]]
+- [[https://en.wikipedia.org/wiki/Heap_(data_structure)][Heaps (priority queues)]]
+
+*** Time and space Complexity:
+[[https://www.simplilearn.com/tutorials/data-structure-tutorial/time-and-space-complexity]]
+
+** Recurrence relation:
+
+Solving recurrence relations is a fundamental task in the analysis of algorithms. Two common methods for solving recurrence relations are:
+
+*** **Recursion Tree Method:**
+
+  The recursion tree method is an intuitive way to visualize and solve recurrence relations, particularly for divide-and-conquer algorithms. It involves breaking down the problem into smaller subproblems and constructing a tree to represent the recursive calls. The steps involved in the recursion tree method are as follows:
+
+  a. Write down the recurrence relation for the algorithm.
+
+  b. Create a recursion tree, where each level of the tree represents a recursive call, and the nodes represent subproblems.
+
+  c. Analyze the tree to find the total work done by summing up the work at each level of the tree.
+
+  d. Use mathematical techniques, such as geometric series, to solve for the overall time complexity of the algorithm.
+
+  The recursion tree method is especially useful for recurrence relations that don't fit directly into the Master Theorem's framework.
+
+*** **Master Theorem:**
+
+  The Master Theorem is a tool specifically designed to solve a class of recurrence relations that arise from divide-and-conquer algorithms. It provides a straightforward way to determine the time complexity of such algorithms without explicitly constructing a recursion tree. The Master Theorem has three cases (with variations) and is generally used for recurrence relations in the form:
+
+  T(n) = aT(n/b) + f(n)
+
+  Where:
+  - T(n) represents the time complexity of the algorithm.
+  - a is the number of subproblems.
+  - n/b is the size of each subproblem.
+  - f(n) is the cost of dividing and combining subproblems.
+
+  The Master Theorem provides a formula for the time complexity of the algorithm based on the values of a, b, and f(n) and whether they satisfy specific conditions for each case. The three cases are as follows:
+
+  a. If f(n) is polynomially smaller than n^log_b(a), then the time complexity is Θ(n^log_b(a)).
+
+  b. If f(n) is roughly equal to n^log_b(a), then the time complexity is Θ(n^log_b(a) * log n).
+
+  c. If f(n) is polynomially larger than n^log_b(a), then the time complexity is Θ(f(n)).
+
+  It's important to note that the Master Theorem is applicable only to specific forms of recurrence relations. If a recurrence doesn't fit one of these forms, then the recursion tree method or other techniques may be necessary.
+
+  While the Master Theorem is a powerful tool for solving certain types of recurrence relations commonly found in divide-and-conquer algorithms, it does have its limitations. Some of the limitations of the Master Theorem include:
+
+  1. **Specific Form Requirement:** The Master Theorem is only applicable to recurrence relations that can be expressed in a specific form, typically in the form of:
+
+     T(n) = aT(n/b) + f(n)
+
+     where 'a' is the number of subproblems, 'b' is the factor by which the problem size is reduced, and 'f(n)' represents the cost of dividing and combining subproblems. If the recurrence relation does not fit this form, the Master Theorem cannot be applied.
+
+  2. **Limited to Certain Algorithms:** The Master Theorem is primarily suited for analyzing divide-and-conquer algorithms, which have a specific structure where the problem is divided into smaller subproblems. It is not applicable to other types of algorithms, such as dynamic programming algorithms or algorithms with irregular recursion patterns.
+
+  3. **Restrictions on 'f(n)':** The Master Theorem requires 'f(n)' to satisfy specific conditions for each of its cases. If 'f(n)' does not meet these conditions, then the Master Theorem cannot provide a solution, and alternative methods like the recursion tree method or substitution method may need to be employed.
+
+  4. **Single Recurrence Relation:** The Master Theorem is designed to solve single recurrence relations. If an algorithm involves multiple recurrence relations with different forms, the Master Theorem may not be suitable for analyzing the overall time complexity.
+
+  5. **Lack of Precision:** In some cases, the Master Theorem provides asymptotic bounds that are overly loose and do not precisely capture the behavior of the algorithm. This can result in an overestimation of the algorithm's complexity.
+
+  6. **Inapplicable to Non-Constant 'a' and 'b':** The Master Theorem assumes that 'a' and 'b' are constants. In cases where 'a' and 'b' are not constants (e.g., 'a' and 'b' depend on 'n'), the Master Theorem cannot be directly applied.
+
+  7. **Lack of Guidance for Non-Standard Cases:** For recurrence relations that fall outside the standard forms and cases covered by the Master Theorem, it doesn't provide guidance on how to analyze the time complexity. In such cases, other techniques like the recursion tree method or the substitution method may be necessary.
+
+
+* UNIT 2:
+Dynamic programming:
+
+  Overview: [[https://en.wikipedia.org/wiki/Dynamic_programming#Computer_science]]
+
+  Problems: [[https://www.makeuseof.com/dynamic-programming-tutorial/]]
+
+- Matrix chain multiplication
+    [[java][https://www.javatpoint.com/matrix-chain-multiplication-example]]
+
+- Longest common substring
+
+- Activity selection problem
+
+- Huffman codes
+
+- Task scheduling problem
+
+- Travelling salesman problem
+
+
+
+* UNIT 3:
+
+* UNIT 4:
+
+
+
+
+#!/usr/bin/env python
+def add(a, b):
+    return a + b

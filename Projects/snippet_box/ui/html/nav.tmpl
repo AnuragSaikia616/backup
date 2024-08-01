@@ -1,0 +1,18 @@
+
+{{define "nav"}}
+<nav>
+  <div>
+  <a href="/">Home</a>
+  <a href="/snippet/create">Create</a>
+  </div>
+  <div>
+    <a href="/user/login">Login</a>
+    <a href="/user/signup">Signin</a>
+    <form action="/user/logout" method="POST">
+      <button>logout</button>
+    </form>
+  </div>
+    
+
+</nav>
+{{end}}

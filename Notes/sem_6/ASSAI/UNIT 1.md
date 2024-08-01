@@ -1,0 +1,10 @@
+# Difference between population and sample
+|                 |                                                                                       |                                                                                                                     |
+| --------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **Aspect**      | **Population**                                                                        | **Sample**                                                                                                          |
+| Definition      | The research aims to study the entire group of individuals, items, or observations.   | A subset of individuals, items, or observations selected from the population for study.                             |
+| Size            | Typically larger, comprising all elements of interest within a defined group.         | Smaller, representing a portion of the population.                                                                  |
+| Representation  | Consists of every member or element of the group.                                     | Represents a proportion or subset of the population.                                                                |
+| Scope           | The target of generalization in research, where conclusions are drawn.                | Used to make inferences about the larger population.                                                                |
+| Data Collection | May involve various methods depending on the research goals and resources available.  | Typically collected through sampling methods such as random sampling, stratified sampling, or convenience sampling. |
+| Analysis        | Analysis aims to understand the entire group's characteristics, trends, and patterns. | Analysis focuses on making inferences about the population based on the characteristics of the sample.              |
